@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 MAINTAINER alice_k106@naver.com
 RUN apt-get update && apt-get install -y nfs-common \ 
 	nfs-kernel-server \
